@@ -12,6 +12,10 @@ archivr is a command line app and it uses the following command line args:
 
 it will save each post as an html file named like the slug provided by the tumblr api. I don't care about file extensions, but your hoster may: github pages does, for example.
 
+```
+go run main.go -key something-spicy -blog mattpiazza.com -o /tmp/archive/matt
+```
+
 ## TODO
  * download images
  * handle post types other than text
